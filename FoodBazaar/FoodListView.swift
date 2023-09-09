@@ -21,14 +21,13 @@ struct FoodListView: View {
                             foodListViewModel.selectedStarter = starter
                         }
                 }
+                .listStyle(.plain)
                 .navigationTitle("🍟 Starters")
                 .disabled(foodListViewModel.isShowingDetail)
             }.onAppear {
                 foodListViewModel.fetchStartersList()
             }
             .blur(radius: foodListViewModel.isShowingDetail ? 20 : 0)
-            
-            
             
             if foodListViewModel.isShowingDetail {
                 StarterListDetailView(isShowingDetail: $foodListViewModel.isShowingDetail, starter: foodListViewModel.selectedStarter!)

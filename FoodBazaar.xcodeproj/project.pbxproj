@@ -27,6 +27,10 @@
 		E17AAE302AACABF400CB74BC /* FBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE2F2AACABF400CB74BC /* FBButton.swift */; };
 		E17AAE322AACAC6E00CB74BC /* XDissmissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE312AACAC6E00CB74BC /* XDissmissButton.swift */; };
 		E17AAE342AACAD0100CB74BC /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE332AACAD0100CB74BC /* NutritionView.swift */; };
+		E17AAE362AACCC4800CB74BC /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE352AACCC4800CB74BC /* AccountViewModel.swift */; };
+		E17AAE382AACCD1E00CB74BC /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE372AACCD1E00CB74BC /* String+Ext.swift */; };
+		E17AAE3A2AACCF0C00CB74BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE392AACCF0C00CB74BC /* User.swift */; };
+		E17AAE3C2AACD67500CB74BC /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE3B2AACD67500CB74BC /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,10 @@
 		E17AAE2F2AACABF400CB74BC /* FBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBButton.swift; sourceTree = "<group>"; };
 		E17AAE312AACAC6E00CB74BC /* XDissmissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDissmissButton.swift; sourceTree = "<group>"; };
 		E17AAE332AACAD0100CB74BC /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		E17AAE352AACCC4800CB74BC /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		E17AAE372AACCD1E00CB74BC /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		E17AAE392AACCF0C00CB74BC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E17AAE3B2AACD67500CB74BC /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				E17AAE2F2AACABF400CB74BC /* FBButton.swift */,
 				E17AAE312AACAC6E00CB74BC /* XDissmissButton.swift */,
 				E17AAE332AACAD0100CB74BC /* NutritionView.swift */,
+				E17AAE352AACCC4800CB74BC /* AccountViewModel.swift */,
+				E17AAE372AACCD1E00CB74BC /* String+Ext.swift */,
+				E17AAE392AACCF0C00CB74BC /* User.swift */,
+				E17AAE3B2AACD67500CB74BC /* EmptyState.swift */,
 			);
 			path = FoodBazaar;
 			sourceTree = "<group>";
@@ -195,6 +207,7 @@
 				E17AAE162AAC425400CB74BC /* AccountView.swift in Sources */,
 				E17AAE322AACAC6E00CB74BC /* XDissmissButton.swift in Sources */,
 				E17AAE2E2AACA63E00CB74BC /* StarterListDetailView.swift in Sources */,
+				E17AAE362AACCC4800CB74BC /* AccountViewModel.swift in Sources */,
 				E17AAE202AAC4B6300CB74BC /* NetworkManager.swift in Sources */,
 				E17AAE2C2AAC5FEC00CB74BC /* RemoteImage.swift in Sources */,
 				E17AAE082AAC41A000CB74BC /* FoodBazaarTabView.swift in Sources */,
@@ -202,7 +215,10 @@
 				E17AAE302AACABF400CB74BC /* FBButton.swift in Sources */,
 				E17AAE342AACAD0100CB74BC /* NutritionView.swift in Sources */,
 				E17AAE062AAC41A000CB74BC /* FoodBazaarApp.swift in Sources */,
+				E17AAE382AACCD1E00CB74BC /* String+Ext.swift in Sources */,
 				E17AAE182AAC426700CB74BC /* OrderView.swift in Sources */,
+				E17AAE3A2AACCF0C00CB74BC /* User.swift in Sources */,
+				E17AAE3C2AACD67500CB74BC /* EmptyState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
