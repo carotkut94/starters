@@ -32,6 +32,7 @@
 		E17AAE3A2AACCF0C00CB74BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE392AACCF0C00CB74BC /* User.swift */; };
 		E17AAE3C2AACD67500CB74BC /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE3B2AACD67500CB74BC /* EmptyState.swift */; };
 		E17AAE3E2AACD99900CB74BC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE3D2AACD99900CB74BC /* Order.swift */; };
+		E17AAE402AACE21C00CB74BC /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE3F2AACE21C00CB74BC /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		E17AAE392AACCF0C00CB74BC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E17AAE3B2AACD67500CB74BC /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		E17AAE3D2AACD99900CB74BC /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E17AAE3F2AACE21C00CB74BC /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				E17AAE392AACCF0C00CB74BC /* User.swift */,
 				E17AAE3B2AACD67500CB74BC /* EmptyState.swift */,
 				E17AAE3D2AACD99900CB74BC /* Order.swift */,
+				E17AAE3F2AACE21C00CB74BC /* CustomModifiers.swift */,
 			);
 			path = FoodBazaar;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				E17AAE382AACCD1E00CB74BC /* String+Ext.swift in Sources */,
 				E17AAE182AAC426700CB74BC /* OrderView.swift in Sources */,
 				E17AAE3E2AACD99900CB74BC /* Order.swift in Sources */,
+				E17AAE402AACE21C00CB74BC /* CustomModifiers.swift in Sources */,
 				E17AAE3A2AACCF0C00CB74BC /* User.swift in Sources */,
 				E17AAE3C2AACD67500CB74BC /* EmptyState.swift in Sources */,
 			);

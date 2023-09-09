@@ -29,8 +29,11 @@ struct OrderView: View {
                     Button {
                         
                     }label: {
-                        FBButton(title: "$\(order.totalPrice, specifier: "%.2f") Place Order")
-                    }.padding(.bottom, 25)
+                        //FBButton(title: )
+                        Text("$\(order.totalPrice, specifier: "%.2f") Place Order")
+                    }
+                    .modifier(StandardButtonStyle())
+                    .padding(.bottom, 25)
                 }
                 if order.items.isEmpty {
                     EmptyState(imageName: "empty-order", message: "No Orders to Place")

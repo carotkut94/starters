@@ -43,8 +43,11 @@ struct StarterListDetailView: View {
                 order.add(starter)
                 isShowingDetail = false
             }label:{
-                FBButton(title: "$\(starter.price, specifier: "%.2f") - Add to Order")
-            }.padding(.bottom, 30)
+                //FBButton(title: )
+                Text("$\(starter.price, specifier: "%.2f") - Add to Order")
+            }
+            .modifier(StandardButtonStyle())
+            .padding(.bottom, 30)
         }
         .frame(width: 300, height: 525)
         .background(Color(.systemBackground))
