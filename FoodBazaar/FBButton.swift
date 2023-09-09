@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FBButton: View {
-    var title:LocalizedStringResource
+    var title:LocalizedStringKey
     var body: some View {
         Text(title)
             .font(.title3)

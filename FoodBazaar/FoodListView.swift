@@ -21,8 +21,8 @@ struct FoodListView: View {
                             foodListViewModel.selectedStarter = starter
                         }
                 }
-                .listStyle(.plain)
                 .navigationTitle("🍟 Starters")
+                .listStyle(.plain)
                 .disabled(foodListViewModel.isShowingDetail)
             }.onAppear {
                 foodListViewModel.fetchStartersList()

@@ -31,6 +31,7 @@
 		E17AAE382AACCD1E00CB74BC /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE372AACCD1E00CB74BC /* String+Ext.swift */; };
 		E17AAE3A2AACCF0C00CB74BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE392AACCF0C00CB74BC /* User.swift */; };
 		E17AAE3C2AACD67500CB74BC /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE3B2AACD67500CB74BC /* EmptyState.swift */; };
+		E17AAE3E2AACD99900CB74BC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE3D2AACD99900CB74BC /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		E17AAE372AACCD1E00CB74BC /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		E17AAE392AACCF0C00CB74BC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E17AAE3B2AACD67500CB74BC /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		E17AAE3D2AACD99900CB74BC /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				E17AAE372AACCD1E00CB74BC /* String+Ext.swift */,
 				E17AAE392AACCF0C00CB74BC /* User.swift */,
 				E17AAE3B2AACD67500CB74BC /* EmptyState.swift */,
+				E17AAE3D2AACD99900CB74BC /* Order.swift */,
 			);
 			path = FoodBazaar;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				E17AAE062AAC41A000CB74BC /* FoodBazaarApp.swift in Sources */,
 				E17AAE382AACCD1E00CB74BC /* String+Ext.swift in Sources */,
 				E17AAE182AAC426700CB74BC /* OrderView.swift in Sources */,
+				E17AAE3E2AACD99900CB74BC /* Order.swift in Sources */,
 				E17AAE3A2AACCF0C00CB74BC /* User.swift in Sources */,
 				E17AAE3C2AACD67500CB74BC /* EmptyState.swift in Sources */,
 			);

@@ -28,7 +28,6 @@ struct FoodBazaarTabView: View {
                     Text("Order")
                 }
         }
-        .accentColor(Color.brandPriamry)
     }
 }
 

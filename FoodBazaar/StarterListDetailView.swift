@@ -9,6 +9,8 @@ import SwiftUI
 
 struct StarterListDetailView: View {
     
+    @EnvironmentObject var order: Order
+    
     @Binding var isShowingDetail:Bool
     let starter: Starter
     
@@ -38,9 +40,10 @@ struct StarterListDetailView: View {
             Spacer()
             
             Button{
-                
+                order.add(starter)
+                isShowingDetail = false
             }label:{
-                FBButton(title: "$\(starter.price, specifier: "%2.f") - Add to Order")
+                FBButton(title: "$\(starter.price, specifier: "%.2f") - Add to Order")
             }.padding(.bottom, 30)
         }
         .frame(width: 300, height: 525)
