@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		E17AAE062AAC41A000CB74BC /* FoodBazaarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE052AAC41A000CB74BC /* FoodBazaarApp.swift */; };
-		E17AAE082AAC41A000CB74BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE072AAC41A000CB74BC /* ContentView.swift */; };
+		E17AAE082AAC41A000CB74BC /* FoodBazaarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE072AAC41A000CB74BC /* FoodBazaarTabView.swift */; };
 		E17AAE0A2AAC41A100CB74BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17AAE092AAC41A100CB74BC /* Assets.xcassets */; };
 		E17AAE0D2AAC41A100CB74BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17AAE0C2AAC41A100CB74BC /* Preview Assets.xcassets */; };
+		E17AAE162AAC425400CB74BC /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE152AAC425400CB74BC /* AccountView.swift */; };
+		E17AAE182AAC426700CB74BC /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE172AAC426700CB74BC /* OrderView.swift */; };
+		E17AAE1A2AAC42A800CB74BC /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE192AAC42A800CB74BC /* FoodListView.swift */; };
+		E17AAE1C2AAC474400CB74BC /* Starter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE1B2AAC474400CB74BC /* Starter.swift */; };
+		E17AAE1E2AAC4ACF00CB74BC /* StarterListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE1D2AAC4ACF00CB74BC /* StarterListCell.swift */; };
+		E17AAE202AAC4B6300CB74BC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE1F2AAC4B6300CB74BC /* NetworkManager.swift */; };
+		E17AAE222AAC4C1300CB74BC /* FBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE212AAC4C1300CB74BC /* FBError.swift */; };
+		E17AAE242AAC52AF00CB74BC /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE232AAC52AF00CB74BC /* FoodListViewModel.swift */; };
+		E17AAE262AAC53F400CB74BC /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE252AAC53F400CB74BC /* Alert.swift */; };
+		E17AAE282AAC5B1700CB74BC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE272AAC5B1700CB74BC /* LoadingView.swift */; };
+		E17AAE2A2AAC5C6400CB74BC /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE292AAC5C6400CB74BC /* Color+Ext.swift */; };
+		E17AAE2C2AAC5FEC00CB74BC /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE2B2AAC5FEC00CB74BC /* RemoteImage.swift */; };
+		E17AAE2E2AACA63E00CB74BC /* StarterListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE2D2AACA63E00CB74BC /* StarterListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E17AAE022AAC41A000CB74BC /* FoodBazaar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodBazaar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17AAE052AAC41A000CB74BC /* FoodBazaarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBazaarApp.swift; sourceTree = "<group>"; };
-		E17AAE072AAC41A000CB74BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E17AAE072AAC41A000CB74BC /* FoodBazaarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBazaarTabView.swift; sourceTree = "<group>"; };
 		E17AAE092AAC41A100CB74BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E17AAE0C2AAC41A100CB74BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E17AAE152AAC425400CB74BC /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		E17AAE172AAC426700CB74BC /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		E17AAE192AAC42A800CB74BC /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		E17AAE1B2AAC474400CB74BC /* Starter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter.swift; sourceTree = "<group>"; };
+		E17AAE1D2AAC4ACF00CB74BC /* StarterListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterListCell.swift; sourceTree = "<group>"; };
+		E17AAE1F2AAC4B6300CB74BC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E17AAE212AAC4C1300CB74BC /* FBError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBError.swift; sourceTree = "<group>"; };
+		E17AAE232AAC52AF00CB74BC /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
+		E17AAE252AAC53F400CB74BC /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		E17AAE272AAC5B1700CB74BC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E17AAE292AAC5C6400CB74BC /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		E17AAE2B2AAC5FEC00CB74BC /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		E17AAE2D2AACA63E00CB74BC /* StarterListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +78,22 @@
 			isa = PBXGroup;
 			children = (
 				E17AAE052AAC41A000CB74BC /* FoodBazaarApp.swift */,
-				E17AAE072AAC41A000CB74BC /* ContentView.swift */,
+				E17AAE072AAC41A000CB74BC /* FoodBazaarTabView.swift */,
 				E17AAE092AAC41A100CB74BC /* Assets.xcassets */,
 				E17AAE0B2AAC41A100CB74BC /* Preview Content */,
+				E17AAE152AAC425400CB74BC /* AccountView.swift */,
+				E17AAE172AAC426700CB74BC /* OrderView.swift */,
+				E17AAE192AAC42A800CB74BC /* FoodListView.swift */,
+				E17AAE1B2AAC474400CB74BC /* Starter.swift */,
+				E17AAE1D2AAC4ACF00CB74BC /* StarterListCell.swift */,
+				E17AAE1F2AAC4B6300CB74BC /* NetworkManager.swift */,
+				E17AAE212AAC4C1300CB74BC /* FBError.swift */,
+				E17AAE232AAC52AF00CB74BC /* FoodListViewModel.swift */,
+				E17AAE252AAC53F400CB74BC /* Alert.swift */,
+				E17AAE272AAC5B1700CB74BC /* LoadingView.swift */,
+				E17AAE292AAC5C6400CB74BC /* Color+Ext.swift */,
+				E17AAE2B2AAC5FEC00CB74BC /* RemoteImage.swift */,
+				E17AAE2D2AACA63E00CB74BC /* StarterListDetailView.swift */,
 			);
 			path = FoodBazaar;
 			sourceTree = "<group>";
@@ -137,8 +176,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E17AAE082AAC41A000CB74BC /* ContentView.swift in Sources */,
+				E17AAE1E2AAC4ACF00CB74BC /* StarterListCell.swift in Sources */,
+				E17AAE1A2AAC42A800CB74BC /* FoodListView.swift in Sources */,
+				E17AAE242AAC52AF00CB74BC /* FoodListViewModel.swift in Sources */,
+				E17AAE1C2AAC474400CB74BC /* Starter.swift in Sources */,
+				E17AAE2A2AAC5C6400CB74BC /* Color+Ext.swift in Sources */,
+				E17AAE222AAC4C1300CB74BC /* FBError.swift in Sources */,
+				E17AAE282AAC5B1700CB74BC /* LoadingView.swift in Sources */,
+				E17AAE162AAC425400CB74BC /* AccountView.swift in Sources */,
+				E17AAE2E2AACA63E00CB74BC /* StarterListDetailView.swift in Sources */,
+				E17AAE202AAC4B6300CB74BC /* NetworkManager.swift in Sources */,
+				E17AAE2C2AAC5FEC00CB74BC /* RemoteImage.swift in Sources */,
+				E17AAE082AAC41A000CB74BC /* FoodBazaarTabView.swift in Sources */,
+				E17AAE262AAC53F400CB74BC /* Alert.swift in Sources */,
 				E17AAE062AAC41A000CB74BC /* FoodBazaarApp.swift in Sources */,
+				E17AAE182AAC426700CB74BC /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
