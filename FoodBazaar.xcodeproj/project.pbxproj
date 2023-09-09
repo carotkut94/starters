@@ -24,6 +24,9 @@
 		E17AAE2A2AAC5C6400CB74BC /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE292AAC5C6400CB74BC /* Color+Ext.swift */; };
 		E17AAE2C2AAC5FEC00CB74BC /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE2B2AAC5FEC00CB74BC /* RemoteImage.swift */; };
 		E17AAE2E2AACA63E00CB74BC /* StarterListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE2D2AACA63E00CB74BC /* StarterListDetailView.swift */; };
+		E17AAE302AACABF400CB74BC /* FBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE2F2AACABF400CB74BC /* FBButton.swift */; };
+		E17AAE322AACAC6E00CB74BC /* XDissmissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE312AACAC6E00CB74BC /* XDissmissButton.swift */; };
+		E17AAE342AACAD0100CB74BC /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AAE332AACAD0100CB74BC /* NutritionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		E17AAE292AAC5C6400CB74BC /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		E17AAE2B2AAC5FEC00CB74BC /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		E17AAE2D2AACA63E00CB74BC /* StarterListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterListDetailView.swift; sourceTree = "<group>"; };
+		E17AAE2F2AACABF400CB74BC /* FBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBButton.swift; sourceTree = "<group>"; };
+		E17AAE312AACAC6E00CB74BC /* XDissmissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDissmissButton.swift; sourceTree = "<group>"; };
+		E17AAE332AACAD0100CB74BC /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 				E17AAE292AAC5C6400CB74BC /* Color+Ext.swift */,
 				E17AAE2B2AAC5FEC00CB74BC /* RemoteImage.swift */,
 				E17AAE2D2AACA63E00CB74BC /* StarterListDetailView.swift */,
+				E17AAE2F2AACABF400CB74BC /* FBButton.swift */,
+				E17AAE312AACAC6E00CB74BC /* XDissmissButton.swift */,
+				E17AAE332AACAD0100CB74BC /* NutritionView.swift */,
 			);
 			path = FoodBazaar;
 			sourceTree = "<group>";
@@ -184,11 +193,14 @@
 				E17AAE222AAC4C1300CB74BC /* FBError.swift in Sources */,
 				E17AAE282AAC5B1700CB74BC /* LoadingView.swift in Sources */,
 				E17AAE162AAC425400CB74BC /* AccountView.swift in Sources */,
+				E17AAE322AACAC6E00CB74BC /* XDissmissButton.swift in Sources */,
 				E17AAE2E2AACA63E00CB74BC /* StarterListDetailView.swift in Sources */,
 				E17AAE202AAC4B6300CB74BC /* NetworkManager.swift in Sources */,
 				E17AAE2C2AAC5FEC00CB74BC /* RemoteImage.swift in Sources */,
 				E17AAE082AAC41A000CB74BC /* FoodBazaarTabView.swift in Sources */,
 				E17AAE262AAC53F400CB74BC /* Alert.swift in Sources */,
+				E17AAE302AACABF400CB74BC /* FBButton.swift in Sources */,
+				E17AAE342AACAD0100CB74BC /* NutritionView.swift in Sources */,
 				E17AAE062AAC41A000CB74BC /* FoodBazaarApp.swift in Sources */,
 				E17AAE182AAC426700CB74BC /* OrderView.swift in Sources */,
 			);

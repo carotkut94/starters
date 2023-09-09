@@ -20,46 +20,18 @@ struct StarterListDetailView: View {
             
             VStack {
                 Text(starter.name)
-                    .font(.title)
+                    .font(.title2)
                     .fontWeight(.semibold)
+                
                 Text(starter.description)
                     .multilineTextAlignment(.center)
                     .font(.body)
                     .padding()
                 
                 HStack(spacing: 40) {
-                    VStack(spacing: 5) {
-                        Text("Calories")
-                            .bold()
-                            .font(.caption)
-                        
-                        Text("\(starter.calories)")
-                            .foregroundColor(.secondary)
-                            .fontWeight(.semibold)
-                            .italic()
-                    }
-                    
-                    VStack(spacing: 5) {
-                        Text("Carbs")
-                            .bold()
-                            .font(.caption)
-                        
-                        Text("\(starter.carbs)")
-                            .foregroundColor(.secondary)
-                            .fontWeight(.semibold)
-                            .italic()
-                    }
-                    
-                    VStack(spacing: 5) {
-                        Text("Protein")
-                            .bold()
-                            .font(.caption)
-                        
-                        Text("\(starter.protein)")
-                            .foregroundColor(.secondary)
-                            .fontWeight(.semibold)
-                            .italic()
-                    }
+                    NutritionView(title: "Calories", nutritionValue: starter.calories)
+                    NutritionView(title: "Carbs", nutritionValue: starter.carbs)
+                    NutritionView(title: "Protein", nutritionValue: starter.protein)
                 }
             }
             
@@ -68,13 +40,7 @@ struct StarterListDetailView: View {
             Button{
                 
             }label:{
-                Text("$\(starter.price, specifier: "%.2f") -  Add to Order")
-                    .font(.title3)
-                    .fontWeight(.semibold)
-                    .frame(width: 260, height: 48)
-                    .foregroundColor(.white)
-                    .background(Color.brandPriamry)
-                    .cornerRadius(10)
+                FBButton(title: "$\(starter.price, specifier: "%2.f") - Add to Order")
             }.padding(.bottom, 30)
         }
         .frame(width: 300, height: 525)
@@ -84,17 +50,7 @@ struct StarterListDetailView: View {
         .overlay(Button{
             isShowingDetail = false
         }label:{
-            ZStack {
-                Circle()
-                    .frame(width: 30, height: 30)
-                    .foregroundColor(.white)
-                    .opacity(0.6)
-                
-                Image(systemName: "xmark")
-                    .imageScale(.small)
-                    .frame(width: 44, height: 44)
-                    .foregroundColor(.black)
-            }
+            XDissmissButton()
         }, alignment: .topTrailing)
     }
 }
