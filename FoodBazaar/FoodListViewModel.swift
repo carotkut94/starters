@@ -13,6 +13,9 @@ final class FoodListViewModel : ObservableObject {
     @Published var alertItem: AlertItem?
     
     @Published var isLoading = false
+
+    @Published var isShowingDetail = false
+    @Published var selectedStarter: Starter?
     
     func fetchStartersList(){
         isLoading = true
