@@ -38,8 +38,6 @@ class AccountViewModel: ObservableObject {
         }catch{
             alertItem = AlertContext.saveError
         }
-        
-        print("Changes saved")
     }
     
     func fetchUser(){
