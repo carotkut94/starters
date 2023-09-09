@@ -16,6 +16,7 @@ struct FoodListView: View {
             NavigationView {
                 List(foodListViewModel.starters, id: \.id){ starter in
                     StarterListCell(starter: starter)
+                        .listRowSeparator(.hidden)
                         .onTapGesture {
                             foodListViewModel.isShowingDetail = true
                             foodListViewModel.selectedStarter = starter

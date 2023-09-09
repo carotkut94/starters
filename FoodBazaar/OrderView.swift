@@ -18,6 +18,7 @@ struct OrderView: View {
                     List {
                         ForEach(order.items){ orderItem in
                             StarterListCell(starter: orderItem)
+                                .listRowSeparator(.hidden)
                         }
                         .onDelete(perform: { indexSet in
                             deleteItems(at: indexSet)
