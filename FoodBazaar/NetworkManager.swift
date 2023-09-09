@@ -18,41 +18,59 @@ final class NetworkManager {
     
     private init(){}
     
-    func getStarters(completed: @escaping (Result<[Starter], FBError>) -> Void){
+    //    func getStarters(completed: @escaping (Result<[Starter], FBError>) -> Void){
+    //        guard let url = URL(string: appetizerURL) else {
+    //            completed(.failure(.invalidUrl))
+    //            return
+    //        }
+    //
+    //        let task = URLSession.shared.dataTask(with: URLRequest(url: url)){ data, response, error in
+    //
+    //            // if error is there go in, and raise error
+    //            if let _ = error {
+    //                completed(.failure(.unableToComplete))
+    //                return
+    //            }
+    //
+    //            // if respose is not correct and status code is not there go and raise the error (if let vs guar let)
+    //            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+    //                completed(.failure(.invalidResponse))
+    //                return
+    //            }
+    //
+    //            guard let data = data else {
+    //                completed(.failure(.invalidData))
+    //                return
+    //            }
+    //
+    //            do {
+    //                let decoder = JSONDecoder()
+    //                let decodedResponse = try decoder.decode(StarterResponse.self, from: data)
+    //                completed(.success(decodedResponse.request))
+    //            }catch {
+    //                completed(.failure(.invalidData))
+    //            }
+    //        }
+    //
+    //        task.resume()
+    //    }
+    
+    // using async await and modern concurrency
+    
+    func getStarters() async throws -> [Starter] {
         guard let url = URL(string: appetizerURL) else {
-            completed(.failure(.invalidUrl))
-            return
+            throw FBError.invalidUrl
         }
         
-        let task = URLSession.shared.dataTask(with: URLRequest(url: url)){ data, response, error in
-            
-            // if error is there go in, and raise error
-            if let _ = error {
-                completed(.failure(.unableToComplete))
-                return
-            }
-            
-            // if respose is not correct and status code is not there go and raise the error (if let vs guar let)
-            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-                completed(.failure(.invalidResponse))
-                return
-            }
-            
-            guard let data = data else {
-                completed(.failure(.invalidData))
-                return
-            }
-            
-            do {
-                let decoder = JSONDecoder()
-                let decodedResponse = try decoder.decode(StarterResponse.self, from: data)
-                completed(.success(decodedResponse.request))
-            }catch {
-                completed(.failure(.invalidData))
-            }
+        let (data, _) = try await URLSession.shared.data(from: url)
+
+        do {
+            let decoder = JSONDecoder()
+            let decodedResponse = try decoder.decode(StarterResponse.self, from: data)
+            return decodedResponse.request
+        }catch {
+            throw FBError.invalidData
         }
-        
-        task.resume()
     }
     
     
